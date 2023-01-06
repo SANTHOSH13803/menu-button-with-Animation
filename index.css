@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     justify-content: center;
@@ -20,7 +21,7 @@ body{
 .nav-close span{
     width: 100%;
     height: 4px;
-    background-color: rgb(89, 102, 239);
+    background-color:#be8034;
     width: 50px;
     position: absolute;
     border-radius: 10px;
@@ -38,7 +39,7 @@ body{
     width: 18px;
 }
 .nav-close .nav-close.active{
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .nav-close.active span:nth-child(2){
@@ -47,10 +48,10 @@ body{
 .nav-close.active span:nth-child(1){
     transform:  rotate(45deg) ;
     width: 50px;
-    transition: 0.2s ;
+    transition: 0.7s ;
 }
 .nav-close.active span:nth-child(3){
     transform: rotate(-225deg);
     width: 50px;
-    transition: 0.55s;
+    transition: 0.4s;
 }
